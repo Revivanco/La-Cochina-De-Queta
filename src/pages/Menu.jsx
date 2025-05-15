@@ -1,14 +1,17 @@
 import React from "react";
-import {} from "../Helpers/MenuList"
+import { MenuList } from "../Helpers/MenuList"
+import { MenuItem } from "@mui/material";
 
 
 const Menu = () => {
-    return(
+    return (
         <div className="menu">
             <h1 className="menuTilte">Nuestro Menu</h1>
-            <div className="menuList"></div>
+            <div className="menuList">{MenuList.map((MenuItem, key) => {
+                return <div>{MenuItem.name}</div>;
+            })}</div>
         </div>
     )
-}
+};
 
 export default Menu
