@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home.jsx";
 import Menu from "./pages/Menu.jsx";
 import Footer from "./components/Footer.jsx";
+import About from "./pages/About.jsx";
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Menu" element={<Menu />} />
+          <Route path="/About" element={<About/>} />
+
         </Routes>
         <Footer/>
       </BrowserRouter>

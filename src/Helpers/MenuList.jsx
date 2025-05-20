@@ -7,7 +7,7 @@ import tortaCochinita from "../assets/tortaCochinita.jpg";
 
 export const MenuList = [
     {
-        name: "1 Kg de Cochinita Pibil",
+        name: "1 Kg Cochinita",
         image: kgDeCochinta,
         price: "$470"
     },
@@ -27,7 +27,7 @@ export const MenuList = [
         price: "$260 10pz",
     },
     {
-        name: "Salsa de chile habanero",
+        name: "Salsa habanero",
         image: salsaHabanero,
         price: "$70 50ml",
     },
