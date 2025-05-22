@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 import Menu from "./pages/Menu.jsx";
 import Footer from "./components/Footer.jsx";
 import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Menu" element={<Menu />} />
           <Route path="/About" element={<About/>} />
+          <Route path="/Contact" element={<Contact/>} />
 
         </Routes>
         <Footer/>
