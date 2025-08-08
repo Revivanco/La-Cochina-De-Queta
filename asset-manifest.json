@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/La-Cochina-De-Queta/static/css/main.4afd0aa5.css",
+    "main.js": "/La-Cochina-De-Queta/static/js/main.d7c574a7.js",
+    "static/js/453.72483f8b.chunk.js": "/La-Cochina-De-Queta/static/js/453.72483f8b.chunk.js",
+    "static/media/imagenCochinita.png": "/La-Cochina-De-Queta/static/media/imagenCochinita.457e26da3049c068cac5.png",
+    "static/media/fotoQueta.png": "/La-Cochina-De-Queta/static/media/fotoQueta.b3c2ec6ebd223ec2862e.png",
+    "static/media/tortaCochinita.jpg": "/La-Cochina-De-Queta/static/media/tortaCochinita.5730f9607f6fbb6ed9a1.jpg",
+    "static/media/salsaHabanero.jpg": "/La-Cochina-De-Queta/static/media/salsaHabanero.8fff145d09ca99757757.jpg",
+    "static/media/empanadasDeCochinita.jpg": "/La-Cochina-De-Queta/static/media/empanadasDeCochinita.55c89512f48a4762464a.jpg",
+    "static/media/tacosCochinita.jpg": "/La-Cochina-De-Queta/static/media/tacosCochinita.07b60e3385f7676bf9ca.jpg",
+    "static/media/cochinaLeft.jpg": "/La-Cochina-De-Queta/static/media/cochinaLeft.33f47ba36b53c0b74cf1.jpg",
+    "static/media/logo.jpg": "/La-Cochina-De-Queta/static/media/logo.040eb7d150d90f215603.jpg",
+    "static/media/ateConQueso.jpg": "/La-Cochina-De-Queta/static/media/ateConQueso.4b1a6b1c1bfe1a58a723.jpg",
+    "static/media/kgDeCochinta.jpg": "/La-Cochina-De-Queta/static/media/kgDeCochinta.ba42a5bbdcfbaf5d0e79.jpg",
+    "index.html": "/La-Cochina-De-Queta/index.html",
+    "main.4afd0aa5.css.map": "/La-Cochina-De-Queta/static/css/main.4afd0aa5.css.map",
+    "main.d7c574a7.js.map": "/La-Cochina-De-Queta/static/js/main.d7c574a7.js.map",
+    "453.72483f8b.chunk.js.map": "/La-Cochina-De-Queta/static/js/453.72483f8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4afd0aa5.css",
+    "static/js/main.d7c574a7.js"
+  ]
+}
