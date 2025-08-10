@@ -7,6 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px; 
+    box-sizing: border-box;
 }
 
 .formContainer {
@@ -69,4 +71,41 @@ form button {
 
 form button:hover {
     background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .formContainer {
+        padding: 30px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .formContainer h1 {
+        font-size: 28px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    form button {
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        padding: 10px;
+    }
+
+    .formContainer {
+        padding: 20px;
+    }
+
+    .formContainer h1 {
+        font-size: 24px;
+    }
 }

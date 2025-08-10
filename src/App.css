@@ -1,20 +1,33 @@
 .App {
-  width:100%;
-  height: auto;
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5; 
+  color: #121619; 
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App {
-  background-image: url("./assets/imagenCochinita.webp"); /* Asegúrate de que la ruta sea correcta */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
+@media (max-width: 768px) {
+  .App {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    font-size: 12px;
+  }
 }

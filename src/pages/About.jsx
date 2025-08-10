@@ -1,23 +1,20 @@
+
 import React from "react";
 import fotoQueta from "../assets/fotoQueta.png";
 
-
 const About = () => {
     return (
-        <div className="About">
-            <div
-                className="AboutTop"
+        <div className="About" style={{ width: "100%", textAlign: "center" }}>
+            <img
+                src={fotoQueta}
+                alt="Foto de Queta"
                 style={{
-                    backgroundImage: `url(${fotoQueta})`,
-                    display: "flex",
-                    alignItems: "center",
-                    backgroundSize: "cover",
-                    backgroundPosition: "center 40%",
-                    backgroundRepeat: "no-repeat",
                     width: "100%",
-                    height: "100vh"
+                    height: "auto",
+                    maxHeight: "100vh",
+                    objectFit: "cover",
                 }}
-            ></div>
+            />
         </div>
     );
 };
